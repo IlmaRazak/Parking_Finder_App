@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:background="@color/gold"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/black"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:text="Parking Slot 6"
+        android:textSize="35dp"
+        android:textColor="#000"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start time - 8.00 A.M"
+        android:textColor="#000"
+        android:textSize="25dp"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="End time - 10.10 A.M"
+        android:textColor="#000"
+        android:textSize="25dp"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estimated Cost - Rs.150"
+        android:textColor="#000"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reserve and Pay"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Review"
+        android:textSize="25dp" />
+
+</LinearLayout>
